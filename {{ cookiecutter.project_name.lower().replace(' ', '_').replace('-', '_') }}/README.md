@@ -149,11 +149,6 @@ or install with `Poetry`
 poetry add {{ cookiecutter.project_name }}
 ```
 
-{% if cookiecutter.create_example_template == 'cli' -%}Then you can run
-
-```bash
-{{ cookiecutter.project_name }} --help
-```
 
 or with `Poetry`:
 
