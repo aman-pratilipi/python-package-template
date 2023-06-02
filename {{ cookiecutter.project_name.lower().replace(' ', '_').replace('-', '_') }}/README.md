@@ -152,9 +152,7 @@ poetry add {{ cookiecutter.project_name }}
 
 or with `Poetry`:
 
-```bash
-poetry run {{ cookiecutter.project_name }} --help
-```{%- endif %}
+
 
 ### Makefile usage
 
