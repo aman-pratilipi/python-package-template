@@ -32,9 +32,7 @@ classifiers = [  #! Update me
 [tool.poetry.dependencies]
 python = "^{{ cookiecutter.minimal_python_version }}"
 {% if cookiecutter.minimal_python_version == '3.7' -%}importlib_metadata = {version = "^4.5.0", python = "<3.8"}{%- endif -%}
-typer = {extras = ["all"], version = "^0.4.0"}
-rich = "^10.14.0"
-{% endif %}
+
 [tool.poetry.dev-dependencies]
 black = {version = "^21.10b0", allow-prereleases = true}
 isort = {extras = ["colors"], version = "^5.10.1"}
